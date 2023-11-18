@@ -18901,8 +18901,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
 	cr.behaviors.Platform,
-	cr.behaviors.Anchor,
 	cr.behaviors.solid,
+	cr.behaviors.Anchor,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.GoToLayout
 ];};
